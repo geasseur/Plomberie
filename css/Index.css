@@ -1,34 +1,127 @@
 <style>
 @media (max-width: 400px) { /*css pour index sur portable*/
+  a{
+    margin:30px 0 30px 0;
+    display: block;
+    font-size: 1em;
+  }
   body{
-    background-color: rgba(154, 214, 57, 0.63);
+    background-color: rgba(173, 173, 173, 0.75);
   }
 
   *{
     border:1px solid black;
   }
-
   header{
+    background-color: rgba(50, 103, 158, 0.4);
     height: 10%;
     margin:0 0 10px 0;
   }
 
-  a{
-    margin:0 0 0 20%;
-    font-size: 1em;
+  h1, h2, h3{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px 0 10px 0;
+  }
+  .construction{
+    background-color: rgba(10, 86, 91, 0.51);
   }
 
+.articleConstruction{
+  position: relative;
+}
+
+.text{
+  position: absolute;
+}
 
   section{
     margin:10px 0 10px 0;
-    background-color: rgba(54, 139, 106, 0.77);
+    background-color: rgba(139, 54, 54, 0.77);
 
+  }
+
+  article{
+    width: 50%;
+    position: relative;
+  }
+
+  div{
+
+  }
+
+  .articleConstruction{
+    padding: 30px 0 30px 0;
+  }
+
+  .articleConstruction p{
+    left:20%;
+    width: 150%;
+    border:1px solid black;
+  }
+
+  .equipe{
+    position:relative;
+    border:3px solid black;
+    padding: 0 0 10% 0;
+  }
+
+  .equipe article{
+    display: inline-block;
+    border:1px solid black;
+    position: relative;
+    width: 80%;
+    background-color: rgba(95, 14, 215, 0.21);
+  }
+  .equipe img{
+    display: inline-block;
+    float: right;
+    width: 15%;
+    height: 75%;
+
+  }
+  .equipe article p{
+    position: relative;
+    margin:10px 0 10px 0;
+  }
+
+  .classPiece{
+    top:50px;
+    left:22%;
+    font-size: 12px;
+    font-family: Arial;
+    position:relative;
+  }
+
+  .imageConstruction{ /*modifie les images */
+    height: 20%;
+    width: 20%;
+  }
+
+  .piece{
+    position: relative;
+    padding: 50px 0 55% 0;
+    background-color: rgba(240, 134, 246, 0.68);
+  }
+
+  .piece p{
+    position: absolute;
+    top: 30px;
+    width: 90%;
+    font-family: arial;
+  }
+
+  .piece img{
+    float: right;
+    height: 60%;
+    width: 10%;
   }
 
   footer{
-    background-color: rgba(221, 28, 3, 0.51);
-    padding:5px 0 5px 0;
+    background-color: rgba(255, 251, 145, 0.75);
+    padding:10px 0 10px 0;
   }
+
 }
 
 @media (max-width: 1500px) { /*css index pour ordinateur*/
@@ -36,6 +129,9 @@
     background-color: rgba(173, 173, 173, 0.75);
   }
 
+  *{
+    border:1px solid black;
+  }
   header{
     background-color: rgba(50, 103, 158, 0.4);
     height: 10%;
@@ -83,9 +179,14 @@
     padding: 30px 0 30px 0;
   }
 
+  .imageConstruction{ /*modifie les images */
+    height: 60%;
+    width: 60%;
+  }
+
   .articleConstruction p{
-    left:20%;
-    width: 150%;
+    left:60%;
+    width: 100%;
     border:1px solid black;
   }
 
@@ -99,11 +200,12 @@
     display: inline-block;
     border:1px solid black;
     position: relative;
+    width: 80%;
     background-color: rgba(95, 14, 215, 0.21);
   }
   .equipe img{
     display: inline-block;
-    float: left;
+    float: right;
     width: 15%;
     height: 75%;
 
@@ -111,7 +213,6 @@
   .equipe article p{
     position: relative;
     margin:10px 0 10px 0;
-    width: 100%;
   }
 
   .classPiece{
@@ -122,23 +223,26 @@
     position:relative;
   }
 
-  .imageConstruction{ /*modifie les images */
-    height: 20%;
-    width: 20%;
-  }
+
 
   .piece{
     position: relative;
+    padding: 50px 0 55% 0;
+    background-color: rgba(240, 134, 246, 0.68);
   }
 
   .piece p{
     position: absolute;
-    left:11%;
+    top: 30px;
+    left:10%;
+    width: 90%;
     font-family: arial;
   }
 
+
   .piece img{
-    height: 10%;
+    float: left;
+    height: 60%;
     width: 10%;
   }
 
