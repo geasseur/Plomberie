@@ -65,3 +65,23 @@
       height: 10%;
       margin:0 0 10px 0;
     }
+}
+
+    @media (max-width: 1200px) { /*css pour tarif sur ordinateur*/
+      a{
+        margin:30px 0 30px 0;
+        display: block;
+        font-size: 2em;
+        text-align: center;
+      }
+      body{
+        background-color: rgba(173, 173, 173, 0.75);
+      }
+
+      body{
+        background-color: rgba(173, 173, 173, 0.75);
+      }
+
+
+
+  }
