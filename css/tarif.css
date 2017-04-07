@@ -1,0 +1,67 @@
+
+@media (max-width: 1200px) { /*css pour tarif sur mobile*/
+  a{
+    margin:30px 0 30px 0;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+  }
+    body{
+      background-color: rgba(173, 173, 173, 0.75);
+    }
+
+    *{
+      border:1px solid black;
+    }
+    header{
+      background-color: rgba(50, 103, 158, 0.4);
+      height: 10%;
+      margin:0 0 10px 0;
+    }
+
+    h1, h2, h3{
+      background-color: rgba(148, 246, 249, 0.5);
+      text-align: center;
+      text-decoration: underline;
+      padding: 10px 0 10px 0;
+    }
+
+    .articleConstruction{
+      position: static;
+      height: 1000px;
+      background-color: rgba(2, 196, 134, 0.41);
+      margin:20px 0 20px 0;
+    }
+
+    .articleConstruction p{
+      display: inline-block;
+      width: 45%;
+      font-size:1.2em;
+
+    }
+
+    .articleConstruction img{
+      position: relative;
+      margin: 0 0 0 0;
+      float: right;
+      display: inline-block;
+      height: 50%;
+      width: 50%;
+    }
+
+    section article p{
+      font-size: 0.9em;
+    }
+
+    section table{
+      height: 400px;
+      width: 100%;
+      margin:0 5% 30px 0;
+
+    }
+
+    footer{
+      background-color: rgba(50, 103, 158, 0.4);
+      height: 10%;
+      margin:0 0 10px 0;
+    }

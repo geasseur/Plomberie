@@ -1,177 +1,56 @@
-<style>
-@media (max-width: 400px) { /*css pour index sur portable*/
+
+
+
+
+@media (max-width: 1200px) { /*css index pour Mobile 2*/
+  body{
+    background-color: rgba(173, 173, 173, 0.75);
+  }
+
+  *{
+    border:1px solid black;
+  }
+  header{
+    background-color: rgba(50, 103, 158, 0.4);
+    height: 10%;
+    margin:0 0 10px 0;
+  }
+
+  h1, h2, h3{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px 0 10px 0;
+  }
+  .construction{
+    background-color: rgba(10, 86, 91, 0.51);
+  }
+
+.articleConstruction{
+  position: relative;
+}
+
+.text{
+  position: absolute;
+}
+
+  section{
+    margin:10px 0 10px 0;
+    background-color: rgba(139, 54, 54, 0.77);
+
+  }
+
+  article{
+    width: 50%;
+    position: relative;
+  }
+
+  div{
+
+  }
+
   a{
     margin:30px 0 30px 0;
     display: block;
-    font-size: 1em;
-  }
-  body{
-    background-color: rgba(173, 173, 173, 0.75);
-  }
-
-  *{
-    border:1px solid black;
-  }
-  header{
-    background-color: rgba(50, 103, 158, 0.4);
-    height: 10%;
-    margin:0 0 10px 0;
-  }
-
-  h1, h2, h3{
-    text-align: center;
-    text-decoration: underline;
-    padding: 10px 0 10px 0;
-  }
-  .construction{
-    background-color: rgba(10, 86, 91, 0.51);
-  }
-
-.articleConstruction{
-  position: relative;
-}
-
-.text{
-  position: absolute;
-}
-
-  section{
-    margin:10px 0 10px 0;
-    background-color: rgba(139, 54, 54, 0.77);
-
-  }
-
-  article{
-    width: 50%;
-    position: relative;
-  }
-
-  div{
-
-  }
-
-  .articleConstruction{
-    padding: 30px 0 30px 0;
-  }
-
-  .articleConstruction p{
-    left:20%;
-    width: 150%;
-    border:1px solid black;
-  }
-
-  .equipe{
-    position:relative;
-    border:3px solid black;
-    padding: 0 0 10% 0;
-  }
-
-  .equipe article{
-    display: inline-block;
-    border:1px solid black;
-    position: relative;
-    width: 80%;
-    background-color: rgba(95, 14, 215, 0.21);
-  }
-  .equipe img{
-    display: inline-block;
-    float: right;
-    width: 15%;
-    height: 75%;
-
-  }
-  .equipe article p{
-    position: relative;
-    margin:10px 0 10px 0;
-  }
-
-  .classPiece{
-    top:50px;
-    left:22%;
-    font-size: 12px;
-    font-family: Arial;
-    position:relative;
-  }
-
-  .imageConstruction{ /*modifie les images */
-    height: 20%;
-    width: 20%;
-  }
-
-  .piece{
-    position: relative;
-    padding: 50px 0 55% 0;
-    background-color: rgba(240, 134, 246, 0.68);
-  }
-
-  .piece p{
-    position: absolute;
-    top: 30px;
-    width: 90%;
-    font-family: arial;
-  }
-
-  .piece img{
-    float: right;
-    height: 60%;
-    width: 10%;
-  }
-
-  footer{
-    background-color: rgba(255, 251, 145, 0.75);
-    padding:10px 0 10px 0;
-  }
-
-}
-
-@media (max-width: 1500px) { /*css index pour ordinateur*/
-  body{
-    background-color: rgba(173, 173, 173, 0.75);
-  }
-
-  *{
-    border:1px solid black;
-  }
-  header{
-    background-color: rgba(50, 103, 158, 0.4);
-    height: 10%;
-    margin:0 0 10px 0;
-  }
-
-  h1, h2, h3{
-    text-align: center;
-    text-decoration: underline;
-    padding: 10px 0 10px 0;
-  }
-  .construction{
-    background-color: rgba(10, 86, 91, 0.51);
-  }
-
-.articleConstruction{
-  position: relative;
-}
-
-.text{
-  position: absolute;
-}
-
-  section{
-    margin:10px 0 10px 0;
-    background-color: rgba(139, 54, 54, 0.77);
-
-  }
-
-  article{
-    width: 50%;
-    position: relative;
-  }
-
-  div{
-
-  }
-
-  a{
-    margin:0 0 0 20%;
     font-size: 1em;
   }
 
@@ -250,5 +129,144 @@
     background-color: rgba(255, 251, 145, 0.75);
     padding:10px 0 10px 0;
   }
+}
+*/
+@media (max-width: 2000px) { /*Pour ordinateur*/
+  body{
+    background-color: rgba(173, 173, 173, 0.75);
+  }
+
+
+  header{
+    background-color: rgba(50, 103, 158, 0.4);
+    height: 10%;
+    margin:0 0 10px 0;
+  }
+
+  h1, h2, h3{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px 0 10px 0;
+  }
+  .construction{
+    vertical-align: top;
+    display: inline-block;
+    width: 35%;
+    background-color: rgba(10, 86, 91, 0.51);
+  }
+
+.articleConstruction{
+  position: relative;
+}
+
+.text{
+  position: absolute;
+}
+
+  section{
+    margin:10px 0 10px 0;
+    background-color: rgba(139, 54, 54, 0.77);
+
+  }
+
+  article{
+    width: 50%;
+    position: relative;
+  }
+
+  div{
+
+  }
+
+  a{
+    margin:0 0 0 20%;
+    font-size: 1em;
+  }
+
+  .articleConstruction{
+    padding: 30px 0 30px 0;
+  }
+
+  .imageConstruction{ /*modifie les images */
+    height: 60%;
+    width: 60%;
+  }
+
+  .articleConstruction p{
+    left:60%;
+    width: 100%;
+    border:1px solid black;
+  }
+
+  .equipe{
+    position:absolute;
+    border:3px solid black;
+    padding: 0 0 10% 0;
+  }
+
+  .equipe article{
+    display: inline-block;
+    border:1px solid black;
+    position: relative;
+    width: 80%;
+    background-color: rgba(95, 14, 215, 0.21);
+  }
+  .equipe img{
+    display: inline-block;
+    float: right;
+    width: 15%;
+    height: 75%;
+
+  }
+  .equipe article p{
+    position: relative;
+    margin:10px 0 10px 0;
+  }
+
+  .classPiece{
+    top:50px;
+    left:22%;
+    font-size: 12px;
+    font-family: Arial;
+    position:relative;
+  }
+
+  .sectionPiece{
+    margin:0 0 0 20px;
+    height: 100%;
+    width:60%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .piece{
+    position: relative;
+    padding: 50px 0 50px 0;
+    width: 100%;
+  }
+
+  .piece p{
+    position: absolute;
+    font-size: 0.7em;
+    top: 30px;
+    left:10%;
+    width: 90%;
+    font-family: arial;
+  }
+
+
+  .piece img{
+    float: left;
+    height: 60%;
+    width: 10%;
+  }
+
+  footer{
+    margin:500px 0 0 0;
+    background-color: rgba(255, 251, 145, 0.75);
+    padding:10px 0 10px 0;
+  }
+
+
 }
 </style>
