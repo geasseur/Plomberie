@@ -1,81 +1,71 @@
+@media (min-width: 400px) and (max-width: 800px) { /*css pour tarif sur mobile*/
+    a{
+      font-size: 2em;
+      display: block;
 
-@media (max-width: 1200px) { /*css pour tarif sur mobile*/
-  a{
-    margin:30px 0 30px 0;
-    display: block;
-    font-size: 2em;
-    text-align: center;
-  }
-    body{
-      background-color: rgba(173, 173, 173, 0.75);
     }
 
-    *{
+    h1, h2, h3, a{
+      text-align: center;
+      background-color: rgba(235, 252, 165, 0.59);
+    }
+
+    td, tr, h1, h2, h3, section, article, nav{
       border:1px solid black;
     }
-    header{
-      background-color: rgba(50, 103, 158, 0.4);
-      height: 10%;
-      margin:0 0 10px 0;
-    }
 
-    h1, h2, h3{
-      background-color: rgba(148, 246, 249, 0.5);
-      text-align: center;
-      text-decoration: underline;
-      padding: 10px 0 10px 0;
-    }
 
-    .articleConstruction{
-      position: static;
-      height: 1000px;
-      background-color: rgba(2, 196, 134, 0.41);
-      margin:20px 0 20px 0;
-    }
-
-    .articleConstruction p{
-      display: inline-block;
-      width: 45%;
-      font-size:1.2em;
-
+    body{
+      background-color: rgba(255, 56, 56, 0.51);
+      font-family: arial;
     }
 
     .articleConstruction img{
-      position: relative;
-      margin: 0 0 0 0;
       float: right;
-      display: inline-block;
-      height: 50%;
-      width: 50%;
     }
 
-    section article p{
+    .tableau table{
+      position: static;
+      border: 1px solid black;
+      display: inline-block;
+      width: 48%;
+      height: 150px;
+      margin:20px 0 20px 0;
       font-size: 0.9em;
     }
 
-    section table{
-      height: 400px;
-      width: 100%;
-      margin:0 5% 30px 0;
+    thead{
+      background-color:  rgba(62, 50, 207, 0.57);
+    }
+
+    tr:nth-child(2n+0){
+      background-color: red;
+    }
+
+    td:nth-child(2n+0){
+      background-color: green;
+    }
+
+    td, tr ,caption{
+      position: relative;
 
     }
 
-    footer{
-      background-color: rgba(50, 103, 158, 0.4);
-      height: 10%;
-      margin:0 0 10px 0;
+    p{
+      text-align: justify;
     }
+
 }
 
-@media (max-width: 2000px) { /*css pour tarif sur ordinateur*/
 
-      
 
+ /*css pour tarif sur ordinateur*/
+@media (min-width: 800px) and (max-width: 1600px) {
       a{
-        margin:30px 0 30px 0;
-        display: block;
+        margin:30px 13% 30px 13%;
         font-size: 2em;
         text-align: center;
+        border: 1px solid black;
       }
       body{
         background-color: rgba(173, 173, 173, 0.75);
@@ -120,8 +110,6 @@
       header, footer, h1, h2, h3, table, tr, td{
         border: 1px solid black;
       }
-
-
 
       footer{
         background-color: rgba(50, 103, 158, 0.4);
