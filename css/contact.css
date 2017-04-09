@@ -6,8 +6,12 @@
   }
 
   h1, h2, h3, a{
-    text-align: center;
+
     background-color: rgba(235, 252, 165, 0.59);
+  }
+
+  h1, h2, h3, a, .blocitineraire p{
+    text-align: center;
   }
   body{
     background-color: rgba(255, 56, 56, 0.51);
@@ -17,6 +21,25 @@
   main section form{
     height: 300px;
     background-color: white;
+  }
+
+  
+  .blocitineraire{
+    width: 80%;
+    margin: auto;
+  }
+
+  .blocitineraire h2{
+    width: 100%;
+  }
+
+  label{
+    vertical-align: top;
+  }
+
+  textarea{
+    width: 80%;
+    height: 75%;
   }
 
 }
