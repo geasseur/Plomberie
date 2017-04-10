@@ -60,11 +60,9 @@
 
 /**************CSS pour Tablette**********************/
 /*****************************************************/
-@media (min-width: 600px) and (max-width: 1200px) { /*css pour contact sur tablette*/
+@media (min-width: 600px) and (max-width: 1200px) {
 
-  *{
-    border:1px solid black;
-  }
+
     body{
       background-color: rgba(56, 136, 255, 0.51);
       font-family: arial;
@@ -89,6 +87,10 @@
       font-size: 1em;
     }
 
+    label input{
+      width: 20%;
+    }
+
     .blocitineraire{
       width: 80%;
       margin: auto;
@@ -110,11 +112,18 @@
 
     a{
       font-size: 2em;
-      margin:0 15% 0 15%
     }
 
     a:nth-child(0n+2){
-      margin: 0 2% 0 2%;
+      margin: 0 5% 0 5%;
+    }
+
+    a:nth-child(0n+1){
+      margin:0 10% 0 20%;
+    }
+
+    a:nth-child(0n+3){
+      margin-left:10%;
     }
 
     iframe{
