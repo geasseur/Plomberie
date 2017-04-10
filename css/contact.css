@@ -1,4 +1,4 @@
-@media (min-width: 0px) and (max-width: 800px) { /*css pour contact sur mobile*/
+@media (min-width: 0px) and (max-width: 600px) { /*css pour contact sur mobile*/
   a{
     font-size: 2em;
     display: block;
@@ -47,10 +47,18 @@
     height: 75%;
   }
 
+
+  .map iframe{
+    width: 100%;
+  }
+
 }
 
-@media (min-width: 800px) and (max-width: 1200px) { /*css pour contact sur tablette*/
+@media (min-width: 600px) and (max-width: 1200px) { /*css pour contact sur tablette*/
 
+  *{
+    border:1px solid black;
+  }
     body{
       background-color: rgba(56, 136, 255, 0.51);
       font-family: arial;
@@ -104,8 +112,8 @@
     }
 
     iframe{
-      width: 99%;
-      margin: auto;
+      width: 100%;
+
     }
 
 }
@@ -134,8 +142,7 @@
     }
 
     iframe{
-      margin: auto;
-      width: 99%;
+      width: 100%;
     }
 
     section form{
