@@ -1,5 +1,5 @@
 
-@media (min-width: 0px) and (max-width: 800px) { /*css index pour Mobile 2*/
+@media (min-width: 0px) and (max-width: 600px) { /*css index pour Mobile 2*/
   body{
     background-color: rgba(173, 173, 173, 0.75);
   }
@@ -121,6 +121,101 @@
     float: left;
     height: 60%;
     width: 10%;
+  }
+
+  footer{
+    background-color: rgba(255, 251, 145, 0.75);
+    padding:10px 0 10px 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px){
+  body{
+    background-color: rgba(168, 76, 76, 0.58);
+  }
+
+  header{
+    background-color: rgba(50, 103, 158, 0.4);
+    height: 10%;
+    margin:0 0 10px 0;
+  }
+
+  h1, h2, h3{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px 0 10px 0;
+  }
+  .construction{
+    background-color: rgba(10, 86, 91, 0.51);
+  }
+
+  .articleConstruction{
+    position: relative;
+  }
+
+  .text{
+    position: absolute;
+  }
+
+  section{
+    margin:10px 0 10px 0;
+    background-color: rgba(139, 54, 54, 0.77);
+
+  }
+
+  article{
+    width: 50%;
+    position: relative;
+  }
+
+
+  a{
+    text-align: center;
+    font-size: 2em;
+    width: 30%;
+    margin:auto;
+    display: block;
+    font-size: 1em;
+  }
+
+  .articleConstruction{
+    padding: 30px 0 30px 0;
+  }
+
+  .imageConstruction{ /*modifie les images */
+    height: 60%;
+    width: 60%;
+  }
+
+  .articleConstruction p{
+    left:60%;
+    width: 100%;
+    border:1px solid black;
+  }
+
+  .equipe{
+    position:relative;
+    border:3px solid black;
+    padding: 0 0 10% 0;
+  }
+
+  .equipe article{
+    display: inline-block;
+    border:1px solid black;
+    position: relative;
+    width: 80%;
+    background-color: rgba(95, 14, 215, 0.21);
+  }
+  .equipe img{
+    display: inline-block;
+    float: right;
+    width: 15%;
+    height: 75%;
+
+  }
+  .equipe article p{
+    position: relative;
+    margin:10px 0 10px 0;
   }
 
   footer{
