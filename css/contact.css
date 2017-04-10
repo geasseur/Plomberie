@@ -1,3 +1,7 @@
+
+/**************CSS pour Mobile**********************/
+/*****************************************************/
+
 @media (min-width: 0px) and (max-width: 600px) { /*css pour contact sur mobile*/
   a{
     font-size: 2em;
@@ -54,6 +58,8 @@
 
 }
 
+/**************CSS pour Tablette**********************/
+/*****************************************************/
 @media (min-width: 600px) and (max-width: 1200px) { /*css pour contact sur tablette*/
 
   *{
@@ -118,6 +124,8 @@
 
 }
 
+/**************CSS pour Ordinateur**********************/
+/*****************************************************/
 @media (min-width: 1200px) and (max-width: 2000px) {
     body{
       background-color: rgba(56, 255, 154, 0.51);

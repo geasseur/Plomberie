@@ -1,4 +1,6 @@
-@media (min-width: 0px) and (max-width: 800px) { /*css pour tarif sur mobile*/
+/**************CSS pour Mobile**********************/
+/*****************************************************/
+@media (min-width: 0px) and (max-width: 400px) { /*css pour tarif sur mobile*/
     a{
       font-size: 2em;
       display: block;
@@ -71,9 +73,16 @@
 }
 
 
+/**************CSS pour Tablette**********************/
+/*****************************************************/
 
- /*css pour tarif sur ordinateur*/
-@media (min-width: 800px) and (max-width: 1600px) {
+@media (min-width: 400px) and (max-width: 1200px){
+
+}
+
+/**************CSS pour Ordinateur**********************/
+/*****************************************************/
+@media (min-width: 1200px) and (max-width: 2000px) {
       a{
         margin:30px 13% 30px 13%;
         font-size: 2em;

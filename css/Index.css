@@ -1,5 +1,6 @@
-
-@media (min-width: 0px) and (max-width: 600px) { /*css index pour Mobile 2*/
+/**************CSS pour Mobile**********************/
+/*****************************************************/
+@media (min-width: 0px) and (max-width: 400px) { /*css index pour Mobile 2*/
   body{
     background-color: rgba(173, 173, 173, 0.75);
   }
@@ -44,12 +45,11 @@
 
   a{
     text-align: center;
-    font-size: 2em;
-    width: 30%;
-    margin:auto;
+    font-size: 3em;
     display: block;
-    font-size: 1em;
+
   }
+
 
   .articleConstruction{
     padding: 30px 0 30px 0;
@@ -91,19 +91,19 @@
     margin:10px 0 10px 0;
   }
 
-  .classPiece{
-    top:50px;
-    left:22%;
+  .sectionPiece{
     font-size: 12px;
     font-family: Arial;
-    position:relative;
+
   }
 
 
 
   .piece{
     height: 100px;
+    display: block;
     position: relative;
+    width: 100%;
     padding: 50px 0 55px 0;
     background-color: rgba(240, 134, 246, 0.68);
   }
@@ -112,7 +112,6 @@
     position: absolute;
     top: 30px;
     left:10%;
-    width: 90%;
     font-family: arial;
   }
 
@@ -129,7 +128,10 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 1200px){
+/**************CSS pour Tablette**********************/
+/*****************************************************/
+
+@media (min-width: 400px) and (max-width: 1200px){
   body{
     background-color: rgba(168, 76, 76, 0.58);
   }
@@ -173,9 +175,11 @@
     text-align: center;
     font-size: 2em;
     width: 30%;
-    margin:auto;
-    display: block;
-    font-size: 1em;
+    margin:0 13% 0 13%;
+  }
+
+  a:nth-child(0n+2){
+    margin:0 2% 0 2%;
   }
 
   .articleConstruction{
@@ -218,13 +222,23 @@
     margin:10px 0 10px 0;
   }
 
+  .piece{
+    display: inline-block;
+    margin:0;
+    width: 49%;
+    vertical-align: top;
+  }
+
   footer{
     background-color: rgba(255, 251, 145, 0.75);
     padding:10px 0 10px 0;
   }
 }
 
-@media (min-width: 1200px) and (max-width: 2000px) { /*Pour ordinateur*/
+/**************CSS pour Ordinateur**********************/
+/*****************************************************/
+
+@media (min-width: 1200px) and (max-width: 2000px) {
   body{
     background-color: rgba(173, 173, 173, 0.75);
   }
