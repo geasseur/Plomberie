@@ -24,6 +24,8 @@
 
     .articleservice img{
       float: right;
+      height: 60%;
+      width: 50%;
     }
 
     .tableau table{
@@ -31,20 +33,28 @@
       border: 1px solid black;
       display: inline-block;
       height: 150px;
-      width: 300px;
+
       margin:auto;
       font-size: 0.9em;
+      display: block;
+
+    }
+
+    .tableau .interventions, .deplacement{
+      width: 100%;
     }
 
     .tableau .interventions{
-      margin:20px 2.5% 20px 5%;
+      margin:20px 0 20px 0;
     }
 
     .tableau .deplacement{
-      margin:20px 5% 20px 2.5%;
+      margin:20px 0 20px 0;
     }
 
-    .deplacement td{
+
+
+    .deplacement td, .interventions td{
       width: 100%;
     }
 
@@ -82,13 +92,21 @@
   }
 
   a{
-    margin:30px 15% 30px 15%;
+    margin:30px 14% 30px 14%;
     font-size: 2em;
     text-align: center;
   }
 
   a:nth-child(0n+2){
-    margin:0 2.5% 0 2.5%;
+    margin:0 2.5% 0 0%;
+  }
+
+  a:nth-child(0n+1){
+    margin-left:20%
+  }
+
+  a:nth-child(0n+3){
+    margin-right:0;
   }
 
   header{
@@ -178,6 +196,12 @@
         margin: 10px 0.5% 10px 4%;
         width: 45%;
         display: inline-block;
+      }
+
+      .articleservice img{
+        float: right;
+        height: 30%;
+        width: 30%;
       }
 
       .tableau{
