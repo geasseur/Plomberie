@@ -1,6 +1,6 @@
 /**************CSS pour Mobile**********************/
 /*****************************************************/
-@media (min-width: 0px) and (max-width: 400px) { /*css index pour Mobile 2*/
+@media (min-width: 0px) and (max-width: 600px) { /*css index pour Mobile 2*/
   body{
     background-color: rgba(173, 173, 173, 0.75);
   }
@@ -131,9 +131,9 @@
 /**************CSS pour Tablette**********************/
 /*****************************************************/
 
-@media (min-width: 400px) and (max-width: 1200px){
+@media (min-width: 600px) and (max-width: 1200px){
   body{
-    background-color: rgba(168, 76, 76, 0.58);
+    background-color: rgba(255, 222, 0, 0.58);
   }
 
   header{
@@ -279,10 +279,6 @@
   article{
     width: 50%;
     position: relative;
-  }
-
-  div{
-
   }
 
   a{
